@@ -1,0 +1,39 @@
+.button {
+  display: block;
+  width: 25%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+
+  .btn {
+    background: #fff;
+    border: 1px solid #dbe3e7;
+    border-radius: 0.3rem;
+    color: #000000;
+    display: block;
+    font-weight: 800;
+    font-size: .8em;
+    min-height: 50px;
+    width: 100%;
+  }
+}
+  
+@media screen and (max-width: 1500px) {
+  .button {
+    display: block;
+    flex-wrap: wrap;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .button {
+    display: block;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

@@ -1,0 +1,18 @@
+.homecontent-container {
+  background: #2B64AF;
+  color: #fff;
+
+  .title {
+    text-transform: uppercase;
+    font-family: Montserrat,-apple-system,BlinkMacSystemFont,Segoe UI,Fira Sans,Helvetica Neue,Arial,sans-serif;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 800;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .homecontent-container {
+    margin-top: -150px;
+  }
+}

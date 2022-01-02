@@ -1,0 +1,154 @@
+.scrollmenu {
+  background-color: #2B64AF;
+}
+
+.video_frame {
+  height: 1380px;
+  width: 100%;
+  object-fit: cover
+}
+
+.sliderimg{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1500px) {
+  .video_frame {
+    height: 700px;
+    width: 100%;
+    object-fit: cover
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .video_frame {
+    height: 190px;
+    width: 100%;
+    object-fit: cover
+  }
+}
+
+.homepage-container {
+  text-align: center;
+  font-family: Montserrat,-apple-system,BlinkMacSystemFont,Segoe UI,Fira Sans,Helvetica Neue,Arial,sans-serif;
+  color: #fff;
+  width: 100%;
+  background-color: #2B64AF;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .title {
+    text-transform: uppercase;
+    font-size: 3em;
+    font-weight: 800;
+    color: #fff;
+  }
+
+  .sub-title {
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 800;
+    color: #fff;
+  }
+  
+  .text {
+    color: #fff;
+    font-size: 1.2em;
+    padding: 0 20px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 2px;
+  }
+
+  a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  .video-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .title {
+      text-transform: uppercase;
+      font-size: 1.6em;
+      font-weight: 800;
+      color: #fff;
+    }
+
+    .sub-title {
+      text-transform: uppercase;
+      font-size: 1.2em;
+      font-weight: 800;
+      color: rgba(255, 255, 255, 0.9);
+    }
+
+    .text {
+      color: rgba(255, 255, 255, 0.9);
+      font-size: 0.9em;
+      font-weight: 700;
+      padding: 0 .1em;
+      letter-spacing: 2px;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+    }
+
+    .btn {
+      margin: 0.5em 1em 0.5em 0;
+      color: #fff;
+      margin-left: 12px;
+      font-size: .7em;
+      border: 2px solid transparent;
+      padding: 1em 2em;
+      display: inline-flex;
+      font-family: "sofia-pro", sans-serif;
+      text-transform: uppercase;
+      font-weight: 800;
+      border-radius: 12px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .btn-blue {
+      background: #f8f8f8;
+      border: 2px solid #649cfd;
+      transition: background 0.4s ease;
+    }
+
+    .btn-blue:hover {
+      background: #649cfd;
+      color: #fff;
+      transition: background 0.4s ease;
+    }
+
+    .btn-purple {
+      background: #f8f8f8;
+      border: 2px solid #a481d5;
+      transition: background 0.4s ease;
+    }
+
+    .btn-purple:hover {
+      background: #a481d5;
+      color: #fff;
+      transition: background 0.4s ease;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .video-container {
+      margin-top: -150px;
+    }
+  }
+}

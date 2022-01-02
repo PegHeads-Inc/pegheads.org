@@ -1,0 +1,77 @@
+.about-container {
+  padding: 1rem 7vw;
+  background: #2B64AF;
+  color: #fff;
+
+  .title {
+    font-size: 2.5em;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "cubano", sans-serif;
+    padding-bottom: 0.5em;
+  }
+
+  .sub-title {
+    font-size: 1.7em;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "cubano", sans-serif;
+  }
+
+  .text {
+    font-size: 20px;
+    font-family: "sofia-pro", sans-serif;
+  }
+
+  .card-row {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 450px));
+    justify-content: center;
+
+    .card {
+      margin: 1em auto;
+      background: #ffffff;
+      color: rgb(0, 0, 0);
+      box-shadow: 0.1px 0.1px 10px 0.8px rgba(0, 0, 0, 0.38);
+      width: 100%;
+      border-radius: 0.25em;
+
+      .image {
+        width: 100%;
+      }
+
+      .name {
+        color: rgb(0, 0, 0);
+        font-size: 1.7em;
+        margin-left: 10px;
+      }
+
+      .text {
+        padding: 0.5em;
+        font-size: 20px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .title {
+      font-size: 2em;
+      color: #fff;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-family: "cubano", sans-serif;
+      padding-bottom: 0.5em;
+    }
+
+    .sub-title {
+      font-size: 1.4em;
+      color: #fff;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-family: "cubano", sans-serif;
+    }
+  }
+}

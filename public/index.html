@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="PegHeads.org"
+      content="pegheads.org is an AI platform that helps you learn how to develop and train AI to automate 3D animation through open source code."
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>PegHeads.org</title>
+  </head>
+  <body>
+    <noscript
+      >PegHeads.org is an AI platform that helps you learn how to develop and
+      train AI to automate 3D animation through open source code.</noscript
+    >
+    <div id="root"></div>
+
+    <!-- Gamalon -->
+    <script
+      src="https://bot.gamalon.com/bot.gamalon.js"
+      charset="utf-8"
+    ></script>
+    <script>
+      GAMALON.init({
+        organizationId: "pegheadsorg",
+        dekuDomain: "https://app.gamalon.com", //optional
+        projectId: "gamalon-emailabz-prod",
+        botId: 236,
+      });
+    </script>
+  </body>
+</html>

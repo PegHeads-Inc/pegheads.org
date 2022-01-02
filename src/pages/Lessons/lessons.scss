@@ -1,0 +1,21 @@
+.lessons-title {
+  padding: 1rem 7vw;
+  color: #fff;
+  font-weight: 800;
+  font-size: 3em;
+  font-family: Montserrat,-apple-system,BlinkMacSystemFont,Segoe UI,Fira Sans,Helvetica Neue,Arial,sans-serif;
+}
+
+.lessons {
+  background: #2B64AF;
+}
+
+@media screen and (max-width: 760px) {
+  .lessons-title {
+    padding: 1rem 7vw;
+    color: #000;
+    font-weight: 800;
+    font-family: Montserrat,-apple-system,BlinkMacSystemFont,Segoe UI,Fira Sans,Helvetica Neue,Arial,sans-serif;
+    font-size: 2.3em;
+  }
+}

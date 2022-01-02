@@ -1,0 +1,12 @@
+.container {
+  color: #ffffff;
+  margin: 0;
+  background-color: #343d47;
+  font-family: "sofia-pro", sans-serif;
+  font-size: 21px;
+  flex-direction: column;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

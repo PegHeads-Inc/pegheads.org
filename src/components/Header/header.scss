@@ -1,0 +1,115 @@
+.header-container {
+  background: #2B64AF;
+  display: flex;
+  font-size: 1.3rem;
+  font-weight: 800;
+  height: 4em;
+  color: #fff;
+
+  .options {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 10px;
+    color: #fff;
+
+
+    .links {
+      color: #ffffff;
+      text-decoration: none;
+      cursor: pointer;
+    }
+  }
+
+  .logo {
+    width: 13em;
+    max-height: 70px;
+    height: 3em;
+    margin: 1em 0 0 0.5em;
+    cursor: pointer;
+    height: auto;
+    display: flex;
+    align-items: center;
+  }
+
+  .links {
+    margin: 0 auto;
+    font-family: Montserrat,-apple-system,BlinkMacSystemFont,Segoe UI,Fira Sans,Helvetica Neue,Arial,sans-serif;
+    font-weight: 800;
+    margin-right: 0;
+    color: #fff;
+
+
+    .icon {
+      font-weight: 800;
+      height: 3em;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      margin: 0 1em;
+    }
+
+    .text {
+      flex-direction: row;
+      color: #fff; 
+    }
+
+    a.icon {
+      text-decoration: none;
+    }
+
+    .text svg {
+      margin-right: .25em;
+    }
+
+    .icon svg {
+      width: 1.5em;
+      height: 1.5em;
+    }
+  }
+
+  .menu-header {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+
+  .center {
+    display: flex;
+    align-items: center;
+  }
+
+  @media screen and (max-width: 1000px) {
+    .links-remove {
+      display: none;
+    }
+
+    .options {
+      display: none;
+    }
+
+    .logo {
+      width: 10em;
+      max-height: 70px;
+      height: 3em;
+      margin: 1em 0 0 0.5em;
+      cursor: pointer;
+      height: auto;
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  @media screen and (max-width: 10000px) {
+    .menu {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    .menu {
+      display: flex;
+    }
+  }
+}
