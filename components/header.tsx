@@ -25,7 +25,7 @@ export default function Header() {
 
   return (
     <>
-    <section className="flex py-2 text-xs items-center justify-center bg-gray-900 text-white">
+    <section className="flex py-2 text-xs items-center justify-center bg-black-900 text-white">
       <div className="flex text-center">
         {/* Icon by https://feathericons.com/ */}
         <div className="flex items-center underline">
@@ -40,7 +40,7 @@ export default function Header() {
       </div>
     </section>
 
-    <div className="w-full relative sm:drop-shadow-sm bg-white dark:bg-gray-700">
+    <div className="w-full relative sm:drop-shadow-sm bg-white dark:bg-black-800">
       <div className="mx-auto px-4 sm:px-6">
         <div className="flex justify-between items-center py-4">
           <div className="flex justify-start lg:w-0 lg:flex-1">
@@ -92,7 +92,7 @@ export default function Header() {
               </svg>
             </button>
 
-            <div className={`fixed top-0 left-0 z-10 h-full w-full transform duration-300 bg-white dark:bg-gray-700 ease-in-out ${navShow ? 'translate-y-0' : 'translate-y-full'}`}>
+            <div className={`fixed top-0 left-0 z-10 h-full w-full transform duration-300 bg-white dark:bg-black-800 ease-in-out ${navShow ? 'translate-y-0' : 'translate-y-full'}`}>
               <div className="flex flex-col h-full pt-3">
                 <div className="flex items-center justify-between px-4 py-3 space-x-4">
                   <Link href="/">

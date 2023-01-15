@@ -5,7 +5,7 @@ export default function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="text-xs bg-white dark:bg-gray-700">
+    <footer className="text-xs bg-white dark:bg-black-800">
       <div className="max-w-screen-2xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-10 lg:grid-cols-3">
           <div>
@@ -118,7 +118,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="relative bg-slate-100 dark:bg-gray-900">
+      <div className="relative bg-slate-100 dark:bg-black-900">
         <div className="max-w-screen-2xl px-4 py-4 mx-auto sm:px-6 lg:px-8 flex">
           <p className="text-xs">
             &copy; Copyright {year} <strong className="text-gray-700 dark:text-white">PegHeads Inc</strong>. All Rights Reserved.
