@@ -1,4 +1,3 @@
-
 /* eslint-disable @next/next/no-img-element */
 import Link from 'next/link';
 import { useTheme } from 'next-themes';
@@ -24,7 +23,7 @@ export default function Header() {
   useEffect(() => setMounted(true), []);
 
   return <>
-  <section className="flex py-2 text-xs items-center justify-center bg-black-900 text-white">
+  <section className="flex py-2 text-xs items-center justify-center bg-black-900 text-gray-200 dark:text-gray-400">
     <div className="flex text-center">
       {/* Icon by https://feathericons.com/ */}
       <div className="flex items-center underline">
@@ -39,7 +38,7 @@ export default function Header() {
     </div>
   </section>
 
-  <div className="w-full relative sm:drop-shadow-sm bg-white dark:bg-black-800">
+  <div className="w-full relative sm:drop-shadow-sm bg-white dark:bg-black-800 text-gray-900 dark:text-gray-400">
     <div className="mx-auto px-4 sm:px-6">
       <div className="flex justify-between items-center py-4">
         <div className="flex justify-start lg:w-0 lg:flex-1">
