@@ -8,7 +8,7 @@ export default function Home() {
       <div className="flex flex-wrap justify-between items-center">
         <div className="mt-10 w-full md:w-6/12 lg:w-6/12 xl:w-6/12 mb-6 md:mb-0 order-2 lg:pl-10">
           <iframe 
-            src="https://player.vimeo.com/video/661018557?h=bf4c6ff739&badge=0&autopause=0&player_id=0&app_id=58479" 
+            src="https://player.vimeo.com/video/661018557?h=bf4c6ff739&badge=0&autopause=0&player_id=0&app_id=58479&transparent=0" 
             allow="autoplay; fullscreen; picture-in-picture" 
             title="AI Is Here To Stay"
             className="lg:w-11/12 lg:h-96 w-full h-60"
