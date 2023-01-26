@@ -6,7 +6,7 @@ export default function Footer() {
 
   return (
     <footer className="text-xs dark:text-gray-500 text-gray-900 bg-white dark:bg-black-800 ">
-      <div className="max-w-screen-2xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
+      <div className="mx-auto px-5 sm:px-10 md:px-10 lg:px-30 py-16">
         <div className="grid grid-cols-1 gap-10 lg:grid-cols-3">
           <div>
             <img src="/static/images/logo.png" alt="logo" className="w-48 h-auto -ml-2" />
@@ -30,7 +30,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 gap-8 lg:col-span-2 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid sm:gap-0 gap-8 lg:col-span-2 sm:grid-cols-2 lg:grid-cols-3">
             <div>
               <h4 className="text-base font-bold text-black-900 dark:text-white">Useful Links</h4>
               <nav className="flex flex-col mt-4 space-y-2">
@@ -153,7 +153,7 @@ export default function Footer() {
       </div>
 
       <div className="relative bg-slate-100 dark:bg-black-900">
-        <div className="max-w-screen-2xl px-4 py-4 mx-auto sm:px-6 lg:px-8 flex">
+        <div className="mx-auto px-5 sm:px-10 md:px-10 lg:px-30 py-4">
           <p className="text-xs dark:text-gray-500 text-gray-900">
             &copy; Copyright {year} <strong className="text-black-900 dark:text-white">PegHeads Inc</strong>. All Rights Reserved.
           </p>

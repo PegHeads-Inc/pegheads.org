@@ -11,7 +11,7 @@ export default function Home() {
             src="https://player.vimeo.com/video/661018557?h=bf4c6ff739&badge=0&autopause=0&player_id=0&app_id=58479&transparent=0" 
             allow="autoplay; fullscreen; picture-in-picture" 
             title="AI Is Here To Stay"
-            className="lg:w-11/12 xxl:h-80 xl:h-64 lg:h-52 h-44 w-full"
+            className="lg:w-11/12 xxl:h-72 xl:h-64 lg:h-52 h-44 w-full"
           >
           </iframe>
         </div>
