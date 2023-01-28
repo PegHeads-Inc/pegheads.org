@@ -34,7 +34,7 @@ export default function Tutorials() {
 
                   <div className="flex flex-wrap">
                     <div className="mx-auto w-full">
-                      <Link href="/static/pdfs/PegHeadsTutorial5.pdf" legacyBehavior>
+                      <Link href="/static/tutorials/PegHeadsTutorial5.pdf" legacyBehavior>
                         <a target="_blank">
                           <button className="py-2 w-full rounded font-bold bg-purple-200 text-xs text-gray-200 hover:opacity-75">
                             Start
@@ -67,7 +67,7 @@ export default function Tutorials() {
 
                   <div className="flex flex-wrap">
                     <div className="mx-auto w-full">
-                      <Link href="/static/pdfs/PegHeadsTutorial4.pdf" legacyBehavior>
+                      <Link href="/static/tutorials/PegHeadsTutorial4.pdf" legacyBehavior>
                         <a target="_blank">
                           <button className="py-2 w-full rounded font-bold bg-purple-200 text-xs text-gray-200 hover:opacity-75">
                             Start
@@ -100,7 +100,7 @@ export default function Tutorials() {
 
                   <div className="flex flex-wrap">
                     <div className="mx-auto w-full">
-                      <Link href="/static/pdfs/PegHeadsTutorial3.pdf" legacyBehavior>
+                      <Link href="/static/tutorials/PegHeadsTutorial3.pdf" legacyBehavior>
                         <a target="_blank">
                           <button className="py-2 w-full rounded font-bold bg-purple-200 text-xs text-gray-200 hover:opacity-75">
                             Start
@@ -133,7 +133,7 @@ export default function Tutorials() {
 
                   <div className="flex flex-wrap">
                     <div className="mx-auto w-full">
-                      <Link href="/static/pdfs/PegHeadsTutorial2.pdf" legacyBehavior>
+                      <Link href="/static/tutorials/PegHeadsTutorial2.pdf" legacyBehavior>
                         <a target="_blank">
                           <button className="py-2 w-full rounded font-bold bg-purple-200 text-xs text-gray-200 hover:opacity-75">
                             Start
@@ -166,7 +166,7 @@ export default function Tutorials() {
 
                   <div className="flex flex-wrap">
                     <div className="mx-auto w-full">
-                      <Link href="/static/pdfs/PegHeadsTutorial1.pdf" legacyBehavior>
+                      <Link href="/static/tutorials/PegHeadsTutorial1.pdf" legacyBehavior>
                         <a target="_blank">
                           <button className="py-2 w-full rounded font-bold bg-purple-200 text-xs text-gray-200 hover:opacity-75">
                             Start
