@@ -16,7 +16,7 @@ export default function Home() {
           </iframe>
         </div>
 
-        <div className="w-5/12 lg:w-1/2 dsffdsfds order-1">
+        <div className="lg:w-1/2 w-full block h-auto order-1">
           <h2 className="text-center mb-4 text-4xl font-extrabold tracking-tight dark:text-white text-black-700">LEARN AI WITH AI</h2>
           <p className="text-center font-sans text-sm mb-4 dark:text-gray-500 text-gray-900">
             PegHeads.org is a free coding platform for developers to build AI & ML models for 3D animation. Experienced developers wanted <Link href="/contact" className="text-purple-600"> Contact us</Link>.
