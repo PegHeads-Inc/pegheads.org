@@ -70,9 +70,6 @@ export default function Footer() {
                   className="hover:opacity-75">
                   WhitePaper
                 </Link>
-                <Link href="https://pegheads.ai/" target="_blank" className="hover:opacity-75">
-                  PegHeads.ai
-                </Link>
                 <Link
                   href="https://guitarfling.com/"
                   target="_blank"
