@@ -19,7 +19,7 @@ export default function Contact() {
         <div className="pb-10">
           <div className="bg-white dark:bg-black-800 max-w-sm mx-auto rounded-xl shadow-lg overflow-hidden md:max-w-3xl py-6">
             <div className="flex flex-col items-center justify-center ">
-              <form action="https://formsubmit.co/zippy@pegheads.ai" method="POST" className="w-full px-8 justify-center items-center">
+              <form action="https://formsubmit.co/hello@aiblockchainventures.com" method="POST" className="w-full px-8 justify-center items-center">
                 <input type="hidden" name="_cc" value="devincapriola@gmail.com"/>
                 <input type="hidden" name="_cc" value="jcapriola@gmail.com"/>
                 <input type="hidden" name="_cc" value="gavincapriola@gmail.com"/>
